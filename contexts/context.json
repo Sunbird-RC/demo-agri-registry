@@ -5,16 +5,6 @@
     "id": "@id",
     "type": "@type",
     "schema": "https://schema.org/",
-    "farmer": "https://raw.githubusercontent.com/Sunbird-RC/demo-donor-registry/main/contexts/vc-context.json",
-    "FarmerCredential": {
-      "@id": "schema:farmer",
-      "@context": {
-        "id": "@id",
-        "@version": 1.1,
-        "@protected": true,
-        "nonTransferable": "pledge:nonTransferable"
-      }
-    },
     "FarmerCredential": {
       "@id": "schema:Person",
       "@context": {
