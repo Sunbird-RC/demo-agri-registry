@@ -10,10 +10,8 @@
       "@context": {
         "@version": 1.1,
         "@protected": true,
-        "id": "schema:Text",
+        "farmerId": "schema:Text",
         "name": "schema:name",
-        "fatherName": "schema:name",
-        "bloodGroup": "schema:Text",
         "address": {
           "@id": "schema:PostalAddress",
           "@context": {
