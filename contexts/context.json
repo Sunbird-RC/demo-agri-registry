@@ -5,8 +5,9 @@
     "id": "@id",
     "type": "@type",
     "schema": "https://schema.org/",
+    "agri": "https://raw.githubusercontent.com/Sunbird-RC/demo-agri-registry/main/contexts/context.json",
     "FarmerCredential": {
-      "@id": "schema:Person",
+      "@id": "agri:FarmerCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
